@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.bhagyashri.DemoClass1">
         <methods>
           <include name="loginChk"/>
         </methods>
       </class> <!-- com.bhagyashri.DemoClass1 -->
+=======
+      <class name="com.JagrutiTC.TestDemo">
+        <methods>
+          <include name="validLogin"/>
+        </methods>
+      </class> <!-- com.JagrutiTC.TestDemo -->
+>>>>>>> e2056cc8da0590f19896967945775ce971ec063f
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
