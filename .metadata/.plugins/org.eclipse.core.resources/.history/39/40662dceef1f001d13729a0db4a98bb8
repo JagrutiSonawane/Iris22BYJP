@@ -1,0 +1,32 @@
+package Inheritance_Demo;
+
+	 class A { 
+		 int x=20;
+	 }
+//		 
+//		 void m1() {
+//		       System.out.println("m1 in class A");	 
+//		 }
+//		}
+		class B extends A {
+			int x=30;
+		}
+//		 void m1() {
+//		       System.out.println("m1 in class B");	 
+//		 }
+//		}
+		
+		public class Test {
+		public static void main(String[] args) 
+		{
+		    B b = new B();
+		    // b.m1(); 
+		    System.out.println(b.x);
+		    A a = new A();
+		     //a.m1();
+		    System.out.println(a.x);
+		    A a2 = new B();
+		     //a2.m1();
+		    System.out.println(a2.x);
+		  }
+		}

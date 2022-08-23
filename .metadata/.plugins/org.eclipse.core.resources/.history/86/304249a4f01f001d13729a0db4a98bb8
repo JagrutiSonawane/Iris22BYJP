@@ -1,0 +1,18 @@
+package Inheritance_Demo;
+
+class A{
+	   int x = 50;	
+	  private A() {
+	     System.out.println(x);
+	   }
+	  public static void main(String[] args) 
+		{
+			A b =new A();
+			
+		 }	
+		
+	  
+	}
+//	public class Private_Construct_Demo
+//	{
+//	}

@@ -1,0 +1,31 @@
+package String_Demo;
+
+public class String_Length {
+	public static void length_using_CharArray()
+	{
+		 String str="Welcome home";
+		 int length=0;
+		 char[] c=str.toCharArray();
+		 for(char ch:c)
+		 {
+			 length++;
+		 }
+		 System.out.println(length);
+	}
+	
+	public static void Length_using_charAt() {
+		String str="Welcome home";
+		 int length=0;
+		 while(str.charAt(length)!='\0')
+			 length++;
+		 System.out.println(length);
+		 
+
+	}
+public static void main(String[] args) {
+	//Length_using_charAt();
+	length_using_CharArray();
+}
+
+
+}

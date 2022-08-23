@@ -1,0 +1,32 @@
+package String_Demo;
+
+public class Reverse_String {
+	public static void Reverse_Using_String_Function() {
+		String str = "NAYAN";
+		String reverse="";
+		for (int i = str.length(); i > 0; i--) {
+			reverse=reverse+(str.charAt(i - 1));
+			//System.out.print(str.charAt(i - 1));
+		}
+		System.out.println(reverse);
+		
+		if(reverse.equals(str))
+			System.out.println("String is plindrome");
+		else
+			System.out.println("String is not palindrome");
+	}
+	
+
+	public static void reverse_Using_StringBuffer() {
+		StringBuffer sbf = new StringBuffer("WElcome Home");
+		System.out.println("String buffer = " + sbf);
+
+		// Here it reverses the string buffer
+		sbf.reverse();
+		System.out.println("String buffer after reversing = " + sbf);	}
+
+	public static void main(String[] args) {
+		Reverse_Using_String_Function();
+		//reverse_Using_StringBuffer();
+	}
+}
