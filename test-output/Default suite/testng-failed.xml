@@ -6,6 +6,7 @@
       <class name="com.JagrutiTC.TestDemo">
         <methods>
           <include name="validLogin"/>
+          <include name="SetupUrl"/>
         </methods>
       </class> <!-- com.JagrutiTC.TestDemo -->
     </classes>
