@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import Keyword.UIKeyword;
 //Urban Ladder LogIn Page Test cases
 public class TestDemo {
+	
 	@BeforeMethod
 	public void SetupUrl() {
 		UIKeyword.openBrowser("chrome");
