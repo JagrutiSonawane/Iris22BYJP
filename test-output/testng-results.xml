@@ -2,7 +2,19 @@
 <testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2022-08-24T14:35:55 IST" name="Default suite" finished-at="2022-08-24T14:36:02 IST" duration-ms="6841">
+=======
+<<<<<<< HEAD
+  <suite started-at="2022-08-01T13:55:00 IST" name="Default suite" finished-at="2022-08-01T13:55:00 IST" duration-ms="116">
+    <groups>
+    </groups>
+    <test started-at="2022-08-01T13:55:00 IST" name="Default test" finished-at="2022-08-01T13:55:00 IST" duration-ms="116">
+      <class name="com.JagrutiTC.TestDemo">
+        <test-method signature="m1()[pri:0, instance:com.JagrutiTC.TestDemo@6bd61f98]" started-at="2022-08-01T13:55:00 IST" name="m1" finished-at="2022-08-01T13:55:00 IST" duration-ms="22" status="PASS">
+=======
+  <suite started-at="2022-08-23T15:02:53 IST" name="Default suite" finished-at="2022-08-23T15:03:00 IST" duration-ms="7000">
+>>>>>>> 51902e76267be2b3afef0a49a1b50e52085da45e
     <groups>
     </groups>
     <test started-at="2022-08-24T14:35:55 IST" name="Default test" finished-at="2022-08-24T14:36:02 IST" duration-ms="6841">
@@ -80,7 +92,12 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
+<<<<<<< HEAD
           </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+=======
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+>>>>>>> e2056cc8da0590f19896967945775ce971ec063f
+>>>>>>> 51902e76267be2b3afef0a49a1b50e52085da45e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
