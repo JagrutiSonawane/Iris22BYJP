@@ -26,7 +26,7 @@ public void validLogin() {
 	UIKeyword.launchUrl("https://www.urbanladder.com/");
 	UIKeyword.click("//span[@class='header-icon-link user-profile-icon']");
 	UIKeyword.click("//a[contains(text(),'Log In')]");
-	UIKeyword.input(By.cssSelector("input.email.required.input_authentication.error"),"jagrutirsonawane@gmail.com");
+	UIKeyword.input(By.xpath("//input[@class='email required input_authentication error']"),"jagrutirsonawane@gmail.com");
 	//UIKeyword.input("//input[@class=\\\"required input_authentication\\\"]", "Jagruti12#");
 	//UIKeyword.click("(//input[@type=\\\"submit\\\"])[3]");
 	UIKeyword.closeBrowser();
