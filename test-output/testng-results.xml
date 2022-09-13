@@ -1,138 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2022-08-23T15:36:29 IST" name="Default suite" finished-at="2022-08-23T15:36:45 IST" duration-ms="16670">
+  <suite started-at="2022-09-13T14:06:43 IST" name="Default suite" finished-at="2022-09-13T14:06:53 IST" duration-ms="9527">
     <groups>
     </groups>
-    <test started-at="2022-08-23T15:36:29 IST" name="Default test" finished-at="2022-08-23T15:36:45 IST" duration-ms="16670">
-      <class name="com.JagrutiTC.TestDemo">
-        <test-method signature="validLogin()[pri:0, instance:com.JagrutiTC.TestDemo@48aca48b]" started-at="2022-08-23T15:36:29 IST" name="validLogin" finished-at="2022-08-23T15:36:45 IST" duration-ms="16535" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='email required input_authentication error']"}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-=======
-<<<<<<< HEAD
-  <suite started-at="2022-08-24T14:35:55 IST" name="Default suite" finished-at="2022-08-24T14:36:02 IST" duration-ms="6841">
-=======
-<<<<<<< HEAD
-  <suite started-at="2022-08-01T13:55:00 IST" name="Default suite" finished-at="2022-08-01T13:55:00 IST" duration-ms="116">
-    <groups>
-    </groups>
-    <test started-at="2022-08-01T13:55:00 IST" name="Default test" finished-at="2022-08-01T13:55:00 IST" duration-ms="116">
-      <class name="com.JagrutiTC.TestDemo">
-        <test-method signature="m1()[pri:0, instance:com.JagrutiTC.TestDemo@6bd61f98]" started-at="2022-08-01T13:55:00 IST" name="m1" finished-at="2022-08-01T13:55:00 IST" duration-ms="22" status="PASS">
-=======
-  <suite started-at="2022-08-23T15:02:53 IST" name="Default suite" finished-at="2022-08-23T15:03:00 IST" duration-ms="7000">
->>>>>>> 51902e76267be2b3afef0a49a1b50e52085da45e
-    <groups>
-    </groups>
-    <test started-at="2022-08-24T14:35:55 IST" name="Default test" finished-at="2022-08-24T14:36:02 IST" duration-ms="6841">
-      <class name="com.JagrutiTC.TestDemo">
-        <test-method is-config="true" signature="SetupUrl()[pri:0, instance:com.JagrutiTC.TestDemo@2d52216b]" started-at="2022-08-24T14:35:55 IST" name="SetupUrl" finished-at="2022-08-24T14:36:01 IST" duration-ms="5853" status="PASS">
+    <test started-at="2022-09-13T14:06:43 IST" name="Default test" finished-at="2022-09-13T14:06:53 IST" duration-ms="9527">
+      <class name="com.Bhagyashri.TestCase">
+        <test-method is-config="true" signature="SetupUrl()[pri:0, instance:com.Bhagyashri.TestCase@5a45133e]" started-at="2022-09-13T14:06:44 IST" name="SetupUrl" finished-at="2022-09-13T14:06:53 IST" duration-ms="9343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupUrl -->
-        <test-method signature="validLogin()[pri:0, instance:com.JagrutiTC.TestDemo@2d52216b]" started-at="2022-08-24T14:36:01 IST" name="validLogin" finished-at="2022-08-24T14:36:02 IST" duration-ms="950" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=104.0.5112.102)
->>>>>>> db5ed8498975b815b6598da1989d4a467625f85c
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-3B05T6A', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-<<<<<<< HEAD
-Command: [27e9e9cde4ca6947f445c422f3840ded, findElement {using=xpath, value=//input[@class='email required input_authentication error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64478/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 27e9e9cde4ca6947f445c422f3840ded]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='email required input_authentication error']"}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-=======
-Command: [f950b9ffcd37c3a65cbf5ad02ecdf8cf, sendKeysToElement {id=6b6c3c60-560f-4346-a7a8-55d46e1a5536, value=[Ljava.lang.CharSequence;@7ff35a3f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52051}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52051/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f950b9ffcd37c3a65cbf5ad02ecdf8cf)] -> xpath: //div[@id="password-credentials"]//input[@id="spree_user_email"]]
-Session ID: f950b9ffcd37c3a65cbf5ad02ecdf8cf]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=104.0.5112.102)
->>>>>>> db5ed8498975b815b6598da1989d4a467625f85c
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-3B05T6A', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-<<<<<<< HEAD
-Command: [27e9e9cde4ca6947f445c422f3840ded, findElement {using=xpath, value=//input[@class='email required input_authentication error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64478/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 27e9e9cde4ca6947f445c422f3840ded
-=======
-Command: [f950b9ffcd37c3a65cbf5ad02ecdf8cf, sendKeysToElement {id=6b6c3c60-560f-4346-a7a8-55d46e1a5536, value=[Ljava.lang.CharSequence;@7ff35a3f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52051}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52051/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f950b9ffcd37c3a65cbf5ad02ecdf8cf)] -> xpath: //div[@id="password-credentials"]//input[@id="spree_user_email"]]
-Session ID: f950b9ffcd37c3a65cbf5ad02ecdf8cf
->>>>>>> db5ed8498975b815b6598da1989d4a467625f85c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
-at Keyword.UIKeyword.input(UIKeyword.java:77)
-at com.JagrutiTC.TestDemo.validLogin(TestDemo.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-<<<<<<< HEAD
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-=======
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
->>>>>>> e2056cc8da0590f19896967945775ce971ec063f
->>>>>>> 51902e76267be2b3afef0a49a1b50e52085da45e
+        <test-method signature="chkTrackOrdertooltip()[pri:0, instance:com.Bhagyashri.TestCase@5a45133e]" started-at="2022-09-13T14:06:53 IST" name="chkTrackOrdertooltip" finished-at="2022-09-13T14:06:53 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-      </class> <!-- com.JagrutiTC.TestDemo -->
+        </test-method> <!-- chkTrackOrdertooltip -->
+      </class> <!-- com.Bhagyashri.TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
