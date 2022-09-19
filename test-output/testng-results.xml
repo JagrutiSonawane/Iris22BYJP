@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2022-09-13T14:19:34 IST" name="Default suite" finished-at="2022-09-13T14:19:53 IST" duration-ms="19434">
     <groups>
     </groups>
@@ -81,10 +82,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+=======
+  <suite started-at="2022-09-13T14:06:43 IST" name="Default suite" finished-at="2022-09-13T14:06:53 IST" duration-ms="9527">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T14:06:43 IST" name="Default test" finished-at="2022-09-13T14:06:53 IST" duration-ms="9527">
+      <class name="com.Bhagyashri.TestCase">
+        <test-method is-config="true" signature="SetupUrl()[pri:0, instance:com.Bhagyashri.TestCase@5a45133e]" started-at="2022-09-13T14:06:44 IST" name="SetupUrl" finished-at="2022-09-13T14:06:53 IST" duration-ms="9343" status="PASS">
+>>>>>>> 37b9c92f83aef1eb295a302ec6724ee29d3b2320
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-      </class> <!-- com.JagrutiTC.TestDemo -->
+        </test-method> <!-- SetupUrl -->
+        <test-method signature="chkTrackOrdertooltip()[pri:0, instance:com.Bhagyashri.TestCase@5a45133e]" started-at="2022-09-13T14:06:53 IST" name="chkTrackOrdertooltip" finished-at="2022-09-13T14:06:53 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkTrackOrdertooltip -->
+      </class> <!-- com.Bhagyashri.TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
