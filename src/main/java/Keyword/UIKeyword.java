@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -82,5 +83,24 @@ public static void input(By locator, String input) {
 driver.findElement(locator).sendKeys(input);	
 }
 
+public static void jseInput(String string) {
+	driver.executeAsyncScript(string);
+}
+
+public static void submitForm(String sub) {
+	driver.findElement(By.xpath(sub)).submit();
+	
+}
+
+public static void sendText(By path, String text) {
+	driver.findElement(path).sendKeys(text);
+	
+}
+public static void moveToCursorOnElement(By cssSelector) {
+	Actions moveto = new Actions(driver);
+	WebElement ele= driver.findElement(cssSelector);
+	moveto.moveToElement(ele);
+
+}
 
 }

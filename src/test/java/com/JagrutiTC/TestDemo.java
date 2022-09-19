@@ -21,15 +21,17 @@ UIKeyword.click("//a[contains(text(),'Log In')]");
 }
 
 @Test
-public void validLogin() {
+public void validLogin() throws InterruptedException {
 	UIKeyword.openBrowser("chrome");
 	UIKeyword.launchUrl("https://www.urbanladder.com/");
 	UIKeyword.click("//span[@class='header-icon-link user-profile-icon']");
 	UIKeyword.click("//a[contains(text(),'Log In')]");
-	UIKeyword.input(By.cssSelector("input.email.required.input_authentication.error"),"jagrutirsonawane@gmail.com");
+	//Thread.sleep(2000);
+	//UIKeyword.jseInput("document.getElementById('spree_user_email').value=\"jagrutirsonawane@gmail.com\";");
+	//UIKeyword.input(By.cssSelector("div>input[autofocus=\"autofocus\"]"),"jagrutirsonawane@gmail.com");
 	//UIKeyword.input("//input[@class=\\\"required input_authentication\\\"]", "Jagruti12#");
-	//UIKeyword.click("(//input[@type=\\\"submit\\\"])[3]");
-	UIKeyword.closeBrowser();
+	UIKeyword.submitForm("(//input[@type=\\\"submit\\\"])[3]");
+	//UIKeyword.closeBrowser();
 }
 
 }
