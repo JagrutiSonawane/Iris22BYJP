@@ -52,8 +52,8 @@ public class UIKeyword {
 
 	public static void click(By cssSelect) {
 		driver.findElement(cssSelect).click();
+	}
 
-<<<<<<< HEAD
 public static void jseInput(String string) {
 	driver.executeAsyncScript(string);
 }
@@ -73,8 +73,7 @@ public static void moveToCursorOnElement(By cssSelector) {
 	moveto.moveToElement(ele);
 
 }
-=======
-	}
+
 
 	public static String getUrl() {
 		String s = driver.getCurrentUrl();
@@ -110,6 +109,6 @@ public static void moveToCursorOnElement(By cssSelector) {
 
 		}
 	}
->>>>>>> 37b9c92f83aef1eb295a302ec6724ee29d3b2320
+
 
 }
