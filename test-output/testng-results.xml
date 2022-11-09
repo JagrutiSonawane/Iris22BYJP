@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2022-09-13T14:19:34 IST" name="Default suite" finished-at="2022-09-13T14:19:53 IST" duration-ms="19434">
+  <suite started-at="2022-09-19T13:48:32 IST" name="Default suite" finished-at="2022-09-19T13:48:39 IST" duration-ms="7197">
     <groups>
     </groups>
-    <test started-at="2022-09-13T14:19:34 IST" name="Default test" finished-at="2022-09-13T14:19:53 IST" duration-ms="19434">
+    <test started-at="2022-09-19T13:48:32 IST" name="Default test" finished-at="2022-09-19T13:48:39 IST" duration-ms="7197">
       <class name="com.JagrutiTC.TestDemo">
-        <test-method signature="validLogin()[pri:0, instance:com.JagrutiTC.TestDemo@13fd2ccd]" started-at="2022-09-13T14:19:34 IST" name="validLogin" finished-at="2022-09-13T14:19:53 IST" duration-ms="19285" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+        <test-method is-config="true" signature="SetupUrl()[pri:0, instance:com.JagrutiTC.TestDemo@771a660]" started-at="2022-09-19T13:48:32 IST" name="SetupUrl" finished-at="2022-09-19T13:48:38 IST" duration-ms="5841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupUrl -->
+        <test-method signature="validLogin()[pri:0, instance:com.JagrutiTC.TestDemo@771a660]" started-at="2022-09-19T13:48:38 IST" name="validLogin" finished-at="2022-09-19T13:48:39 IST" duration-ms="1278" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//input[@type=\"submit\"])[3] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//input[@type=\"submit\"])[3]' is not a valid XPath expression.
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+              <![CDATA[element not interactable
+  (Session info: chrome=105.0.5195.126)
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-H47J22D', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64f8f9e04b76eb9d701716cd7635ca3b, findElement {using=xpath, value=(//input[@type=\"submit\"])[3]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BS\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49549/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64f8f9e04b76eb9d701716cd7635ca3b]]>
+Command: [e03f3bdf83124652d4cbd85f960a75be, sendKeysToElement {id=cb45aae4-bd0c-4507-883c-232d29813452, value=[Ljava.lang.CharSequence;@7add838c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BS\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:61750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61750/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e03f3bdf83124652d4cbd85f960a75be)] -> xpath: //div[@id="password-credentials"]//input[@id="spree_user_email"]]
+Session ID: e03f3bdf83124652d4cbd85f960a75be]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//input[@type=\"submit\"])[3] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//input[@type=\"submit\"])[3]' is not a valid XPath expression.
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=105.0.5195.126)
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-H47J22D', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64f8f9e04b76eb9d701716cd7635ca3b, findElement {using=xpath, value=(//input[@type=\"submit\"])[3]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BS\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49549/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64f8f9e04b76eb9d701716cd7635ca3b
+Command: [e03f3bdf83124652d4cbd85f960a75be, sendKeysToElement {id=cb45aae4-bd0c-4507-883c-232d29813452, value=[Ljava.lang.CharSequence;@7add838c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BS\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:61750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61750/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e03f3bdf83124652d4cbd85f960a75be)] -> xpath: //div[@id="password-credentials"]//input[@id="spree_user_email"]]
+Session ID: e03f3bdf83124652d4cbd85f960a75be
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -45,12 +46,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-at Keyword.UIKeyword.submitForm(UIKeyword.java:91)
-at com.JagrutiTC.TestDemo.validLogin(TestDemo.java:33)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at Keyword.UIKeyword.input(UIKeyword.java:98)
+at com.JagrutiTC.TestDemo.validLogin(TestDemo.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -81,23 +80,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
-=======
-  <suite started-at="2022-09-13T14:06:43 IST" name="Default suite" finished-at="2022-09-13T14:06:53 IST" duration-ms="9527">
-    <groups>
-    </groups>
-    <test started-at="2022-09-13T14:06:43 IST" name="Default test" finished-at="2022-09-13T14:06:53 IST" duration-ms="9527">
-      <class name="com.Bhagyashri.TestCase">
-        <test-method is-config="true" signature="SetupUrl()[pri:0, instance:com.Bhagyashri.TestCase@5a45133e]" started-at="2022-09-13T14:06:44 IST" name="SetupUrl" finished-at="2022-09-13T14:06:53 IST" duration-ms="9343" status="PASS">
->>>>>>> 37b9c92f83aef1eb295a302ec6724ee29d3b2320
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetupUrl -->
-        <test-method signature="chkTrackOrdertooltip()[pri:0, instance:com.Bhagyashri.TestCase@5a45133e]" started-at="2022-09-13T14:06:53 IST" name="chkTrackOrdertooltip" finished-at="2022-09-13T14:06:53 IST" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chkTrackOrdertooltip -->
-      </class> <!-- com.Bhagyashri.TestCase -->
+        </test-method> <!-- validLogin -->
+      </class> <!-- com.JagrutiTC.TestDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
